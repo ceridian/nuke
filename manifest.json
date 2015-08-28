@@ -1,0 +1,16 @@
+{
+   "background": {
+      "scripts": [ "js/jquery.min.js", "js/backgroundpage.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/account.png",
+      "default_title": "Auto Login",
+      "default_popup": "popup.html"
+   },
+   "description": "Auto Login.",
+   "manifest_version": 2,
+   "name": "Auto Login",
+   "permissions": [ "browsingData", "tabs", "cookies"],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}
